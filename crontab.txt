@@ -1,0 +1,2 @@
+# Ejecutar backup.sh cada hora si hubo cambios
+0 * * * * /mnt/a/3-Ocio/4-Programacion/1-RepositoriosGIT/minecraft_server/backup.sh >> /mnt/a/3-Ocio/4-Programacion/1-RepositoriosGIT/minecraft_server/backup.log 2>&1
