@@ -1,0 +1,6 @@
+# Ignorar backups y datos del mundo
+backups/*.tar.gz
+data/
+.last-backup.md5
+.current.md5
+backup.log

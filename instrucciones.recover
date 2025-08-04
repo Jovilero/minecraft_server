@@ -1,0 +1,20 @@
+4. Restaurar un backup (si algo sale mal)
+Detén el servidor:
+
+bash
+Copiar código
+docker compose down
+Borra o mueve el contenido de la carpeta data/ actual.
+
+Extrae el backup:
+
+bash
+Copiar código
+tar -xzf backups/backup-2025-08-04_14-00-00.tar.gz -C data/
+Levanta el servidor de nuevo:
+
+bash
+Copiar código
+docker compose up -d
+🧼 Opcional: subir backups a Google Drive, Dropbox o un NAS
+Si quieres eso también, dime cuál prefieres y te ayudo a configurarlo.
